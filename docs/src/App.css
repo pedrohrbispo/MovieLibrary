@@ -4,6 +4,7 @@
 }
 
 body {
+    background: linear-gradient(to top, #010714 30%, transparent 70% );
     background-color: #111;
     color: #FFF;
     margin: 0px;
@@ -12,4 +13,16 @@ body {
 
 .lists {
     margin-top: -150px;
+}
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

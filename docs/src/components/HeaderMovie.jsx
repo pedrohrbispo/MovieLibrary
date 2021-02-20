@@ -16,7 +16,7 @@ class HeaderMovie extends React.Component {
       }}>
         <div className="header-vertical">
           <div className="header-horizontal">
-              <div className="header-name">{movie.original_title}</div>
+              <div className="header-name">{movie.title}</div>
               <div className="header-infos">
                 <div className="header-rating">{movie.vote_average} pontos</div>
                 <div className="header-year">{realeasedYear.getFullYear()}</div>

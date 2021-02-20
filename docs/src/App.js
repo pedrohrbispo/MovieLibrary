@@ -14,9 +14,12 @@ function App() {
       let listFilms = await Movies.getListFilms();
       setMovieList(listFilms);
       // Pegar o HeaderFilme
-      const popularMovies = listFilms.find(movie => movie.name === 'action');
+      const popularMovies = listFilms.find(movie => movie.name === 'science=fiction');
       let randomFilmeNumber = Math.floor(Math.random() * popularMovies.items.results.length - 1);
       let chosenMovie = popularMovies.items.results[randomFilmeNumber];
+      if (chosenMovie.poster_path === null || chosenMovie.poster_path === undefined) {
+        chosenMovie = popularMovies.items.results[randomFilmeNumber];
+      } 
       let chosenMovieInfos = await Movies.getMovieInfos(chosenMovie.id, 'movie');
       setHeaderData(chosenMovieInfos);
     };
@@ -34,6 +37,11 @@ function App() {
       </section>
       
       <Footer />
+      {moviesList.length <= 0 &&
+        <div className="loading">
+          <img src="https://homesupport.irobot.com/euf/assets/images/faqs/general/light_rings/spotclean.gif" alt="Carregando" />
+        </div>
+      }
     </main>
   );
 }

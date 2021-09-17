@@ -19,3 +19,7 @@ Olá, este é um projeto pessoal, que foi inspirado no site da netflix. Basicame
 
    - A aplicação irá rodar na porta 3000
 
+## 🗒 Preview do Projeto: 
+![image](https://user-images.githubusercontent.com/73143582/133825756-cb8d35af-8253-434e-b730-c783faed29b5.png)
+![image](https://user-images.githubusercontent.com/73143582/133825937-8c7ff8fc-55e8-45bc-a126-12287b5d4c14.png)
+![image](https://user-images.githubusercontent.com/73143582/133825905-86f60bab-cb4b-434f-900d-99dfdbcb895c.png)

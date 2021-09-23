@@ -5,6 +5,8 @@ Olá, este é um projeto pessoal, que foi inspirado no site da netflix. Basicame
 
 ## 🗒 Para rodar a aplicação
 
+-Deploy: <a href="http://clone-netflix-blush.vercel.app">clone-netflix-blush.vercel.app</a>
+
 1. Clone o repositório
 
    - `git clone git@github.com:pedrohrbispo/MovieLibrary.git`.
